@@ -90,7 +90,7 @@ const styles = StyleSheet.create({
   },
   cardElevated: {
     backgroundColor: '#FFFFFF',
-  },
+  }, 
   cardImage: {
     width: '100%',
     height: 120,
