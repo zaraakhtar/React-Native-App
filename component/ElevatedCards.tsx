@@ -6,9 +6,27 @@ export default function ElevatedCards() {
   return (
     <View style={styles.textContainer}>
       <Text style={styles.headingText}>ElevatedCards</Text>
-      <ScrollView style ={styles.container}>
-        <View style = {[styles.Card, styles.CardElevated]}>
-            <Text>Tap</Text>
+      <ScrollView horizontal={true} style={styles.container}>
+        <View style={[styles.Card, styles.cardOne]}>
+          <Text>Tap</Text>
+        </View>
+        <View style={[styles.Card, styles.cardTwo]}>
+          <Text>me</Text>
+        </View>
+        <View style={[styles.Card, styles.cardThree]}>
+          <Text>To</Text>
+        </View>
+        <View style={[styles.Card, styles.cardFour]}>
+          <Text>Scroll</Text>
+        </View>
+        <View style={[styles.Card, styles.cardFive]}>
+          <Text>More...</Text>
+        </View>
+        <View style={[styles.Card, styles.cardSix]}>
+          <Text>😚</Text>
+        </View>
+        <View style={[styles.Card, styles.cardSeven]}>
+          <Text>😅</Text>
         </View>
       </ScrollView>
     </View>
@@ -16,7 +34,7 @@ export default function ElevatedCards() {
 }
 
 const styles = StyleSheet.create({
-    headingText: {
+  headingText: {
     fontSize: 24,
     fontWeight: 'bold',
     paddingHorizontal: 5,
@@ -27,11 +45,39 @@ const styles = StyleSheet.create({
   container: {
     padding: 8
   },
-  CardElevated: {
-    backgroundColor: '#D9A299'
-  },
   Card: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
     width: 100,
     height: 100,
+    margin: 8,
+    borderRadius: 4,
+    elevation: 4, 
+    shadowOffset: {
+        width: 1,
+        height: 1
+    },
   },
-})
+  cardOne: {
+    backgroundColor: '#D9A299',
+  },
+  cardTwo: {
+    backgroundColor: '#DCC5B2',
+  },
+  cardThree: {
+    backgroundColor: '#F0E4D3',
+  },
+  cardFour: {
+    backgroundColor: '#D1D8BE',
+  },
+  cardFive: {
+    backgroundColor: '#FFDCDC',
+  },
+  cardSix: {
+    backgroundColor: '#C0C9EE',
+  },
+  cardSeven: {
+    backgroundColor: '#ECFAE5',
+  },
+});
