@@ -36,7 +36,7 @@ export default function FancyCard() {
           <Text style={styles.cardTitle}>Attabad Lake</Text>
           <Text style={styles.cardLable}>Hunza Valley, Gilgit-Baltistan</Text>
           <Text style={styles.cardTDescription}>
-            A breathtaking turquoise lake formed in 2010 due to a landslide, now a top tourist destination in northern Pakistan.
+            A breathtaking turquoise lake formed in 2010 due to a landslide, now a top tourist and amazing destination in northern Pakistan.
           </Text>
         </View>
       </View>
