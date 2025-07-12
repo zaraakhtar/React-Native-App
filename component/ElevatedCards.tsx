@@ -5,28 +5,28 @@ import { ScrollView } from 'react-native';
 export default function ElevatedCards() {
   return (
     <View style={styles.textContainer}>
-      <Text style={styles.headingText}>ElevatedCards</Text>
+      <Text style={styles.headingText}>Cities In Pakistan</Text>
       <ScrollView horizontal={true} style={styles.container}>
         <View style={[styles.Card, styles.cardOne]}>
-          <Text>Tap</Text>
+          <Text>Lahore</Text>
         </View>
         <View style={[styles.Card, styles.cardTwo]}>
-          <Text>me</Text>
+          <Text>Karachi</Text>
         </View>
         <View style={[styles.Card, styles.cardThree]}>
-          <Text>To</Text>
+          <Text>Islamabad</Text>
         </View>
         <View style={[styles.Card, styles.cardFour]}>
-          <Text>Scroll</Text>
+          <Text>Nawabshah</Text>
         </View>
         <View style={[styles.Card, styles.cardFive]}>
-          <Text>More...</Text>
+          <Text>Rawalpindi</Text>
         </View>
         <View style={[styles.Card, styles.cardSix]}>
-          <Text>😚</Text>
+          <Text>Multan</Text>
         </View>
         <View style={[styles.Card, styles.cardSeven]}>
-          <Text>😅</Text>
+          <Text>Pishawar</Text>
         </View>
       </ScrollView>
     </View>

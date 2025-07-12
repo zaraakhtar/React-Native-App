@@ -5,18 +5,18 @@ export default function FlatCards() {
   return (
     <View>
       <View style={Styles.textContainer}>
-        <Text style={Styles.headingText}>FlatCards</Text>
+        <Text style={Styles.headingText}>Countries</Text>
       </View>
 
       <View style={Styles.Container}>
         <View style={[Styles.card, Styles.cardOne]}>
-          <Text>Orange</Text>
+          <Text>India</Text>
         </View>
         <View style={[Styles.card, Styles.cardTwo]}>
-          <Text>Green</Text>
+          <Text>Pakistan</Text>
         </View>
         <View style={[Styles.card, Styles.cardThree]}>
-          <Text>Yellow</Text>
+          <Text>Afghanistan</Text>
         </View>
       </View>
     </View>

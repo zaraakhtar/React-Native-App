@@ -107,7 +107,7 @@ const styles = StyleSheet.create({
     marginBottom: 4,
   },
   cardLable: {
-    fontSize: 14,
+    fontSize: 13,
     color: '#777',
     marginBottom: 4,
   },
