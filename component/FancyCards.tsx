@@ -112,7 +112,7 @@ const styles = StyleSheet.create({
     marginBottom: 4,
   },
   cardTDescription: {
-    fontSize: 13,
+    fontSize: 14,
     color: '#444',
   },
   cardFooter: {
