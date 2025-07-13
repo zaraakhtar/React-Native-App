@@ -1,4 +1,10 @@
-import { StyleSheet, Text, View, Linking, TouchableOpacity } from 'react-native';
+import {
+  StyleSheet,
+  Text,
+  View,
+  Linking,
+  TouchableOpacity,
+} from 'react-native';
 import React from 'react';
 import { Image } from 'react-native';
 
@@ -19,26 +25,28 @@ export default function ActionCard() {
 
         <Image
           source={{
-            uri: 'https://img.youtube.com/vi/CCR7uHDKP-s/maxresdefault.jpg', 
+            uri: 'https://img.youtube.com/vi/CCR7uHDKP-s/maxresdefault.jpg',
           }}
           style={styles.cardImage}
         />
 
         <View style={styles.bodyContainer}>
           <Text numberOfLines={3}>
-            Join a local food vlogger as they explore Lahore’s iconic street food hubs—tasting savory
-            BBQ, gol gappay, halwa puri, and more under the glowing lights of Fort Road Food Street.
+            By now you’ve realized, we love food…and why shouldn’t we? We’re
+            from Lahore, aren’t we? And we’d love for you to try out all our
+            amazingly iconic foods that the city offers; because if you haven’t
+            had all the street food in Lahore, well, did you even visit us
           </Text>
         </View>
 
         <View style={styles.footerContainer}>
           <TouchableOpacity
             onPress={() =>
-              openWebsite('https://www.youtube.com/watch?v=nadATKIHtK8')
+              openWebsite('https://visitlahore.com/traditional-food-in-lahore/')
             }
           >
-            <Text style={{ color: 'blue', textDecorationLine: 'underline' }}>
-              Watch Vlog
+            <Text>
+              Read More
             </Text>
           </TouchableOpacity>
         </View>
