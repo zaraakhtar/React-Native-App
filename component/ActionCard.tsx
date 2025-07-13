@@ -2,9 +2,9 @@ import { StyleSheet, Text, View, Linking } from 'react-native';
 import React from 'react';
 
 export default function ActionCard() {
-    // function openWebsite(websiteLink: string){
-    //     Linking.openURL(websiteLink)
-    // }
+    function openWebsite(websiteLink: string){
+        Linking.openURL(websiteLink)
+    }
   return (
     <View style={styles.textContainer}>
       <Text style={styles.headingText}>Blog Card</Text>
