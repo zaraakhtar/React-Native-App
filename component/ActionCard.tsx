@@ -54,7 +54,7 @@ export default function ActionCard() {
     </View>
   );
 }
-//this is the style of the action cards
+
 const styles = StyleSheet.create({
   headingText: {
     fontSize: 24,
