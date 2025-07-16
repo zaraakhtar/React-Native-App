@@ -54,7 +54,7 @@ export default function ActionCard() {
     </View>
   );
 }
-//this is a comment section
+//this is a comment sectiong
 const styles = StyleSheet.create({
   headingText: {
     fontSize: 24,
